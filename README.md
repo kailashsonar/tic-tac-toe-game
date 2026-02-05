@@ -14,3 +14,6 @@ A simple Tic Tac Toe game built using HTML, CSS, and JavaScript.
 - CSS
 - JavaScript
 
+## Live Demo
+https://xo-battlegrid.netlify.app
+
