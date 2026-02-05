@@ -1,2 +1,16 @@
-# tic-tac-toe-game
-A responsive Tic-Tac-Toe game built using HTML, CSS, and JavaScript with 2-player and player-vs-computer modes.
+# Tic Tac Toe Game 🎮
+
+A simple Tic Tac Toe game built using HTML, CSS, and JavaScript.
+
+## Features
+- 2 Player mode
+- Player vs Computer mode
+- Win & draw detection
+- Restart game functionality
+- Responsive UI
+
+## Tech Stack
+- HTML
+- CSS
+- JavaScript
+

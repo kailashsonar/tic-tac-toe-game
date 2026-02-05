@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.maindiv {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    width: 470px;
+    gap: 10px;
+    background-color: black;
+    margin: 50px auto;
+}
+
+@media screen and (max-width: 600px) {
+  .maindiv {
+    width: 320px;
+  }
+}
+
+.startBtn,
+.restartBtn,
+.playerBtn {
+    width: 80px;
+    height: 30px;
+    background-color: darkslateblue;
+    color: beige;
+}
+
+.computerBtn {
+    width: 145px;
+    height: 30px;
+    background-color: darkslateblue;
+    color: beige;
+}
+
+.box {
+    height: 150px;
+    width: 150px;
+    background-color: darkseagreen;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media screen and (max-width: 600px) {
+  .box {
+    height: 100px;
+    width: 100px;
+  }
+}
+
+div i {
+    font-size: 130px;
+}
+
+@media screen and (max-width: 600px) {
+  div i {
+    font-size: 80px;
+  }
+}
+
+.fa-x {
+    color: brown;
+}
+
+h2 {
+    margin-top: 30px;
+}
+
+h2 i {
+    font-size: 20px;
+
+}
+
+.hidden {
+    display: none;
+}
