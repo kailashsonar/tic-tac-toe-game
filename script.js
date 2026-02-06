@@ -158,18 +158,3 @@ restartBtn.addEventListener("click", (ev) => {
         h2Heading.remove()
     };
 });
-
-/*  let row1 = [game[0][0],game[0][1],game[0][2]];
-     let row2 = [game[1][0],game[1][1],game[1][2]];
-     let row3 = [game[2][0],game[2][1],game[2][2]];
- 
-     let col1 = [game[0][0],game[1][0],game[2][0]];
-     let col2 = [game[0][1],game[1][1],game[2][1]];
-     let col3 = [game[0][2],game[1][2],game[2][2]];
- 
-     let cros1 = [game[0][0],game[1][1],game[2][2]];
-     let cros2 = [game[0][2],game[1][1],game[2][0]];
- 
-    let ans = row1.every((a)=>{
-     return a == "x" ;   circle
-    });*/
